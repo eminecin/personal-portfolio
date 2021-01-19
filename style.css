@@ -1,42 +1,134 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 body {
-    background-color: #183446;
-    color: white;
+  background-color: #183446;
+  color: white;
 }
-
 a {
-    color: #ffffff;
+  color: #fff;
 }
-
 nav {
-    background-color: #046e8f;
-    height: 71px;
-    position: relative;
+  background-color: #046e8f;
+  height: 71px;
 }
-
 nav ul {
-    position: absolute;
-    right: 0;
-   
+  position: absolute;
+  right: 0;
 }
 nav li {
-    display: inline-block;
-   
+  display: inline-block;
 }
-
 nav a {
-    padding: 24px;
-    display: block;
-    text-decoration: none;
-    font-size: 20px;
-    
+  padding: 24px;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav a:hover {
+  background-color: #0090c1;
+}
+#about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#about h1 {
+  font-size: 56px;
+  margin-bottom: 24px;
 }
 
-nav a:hover {
-    background-color: #0090c1;
+#about p {
+  font-size: 32px;
+}
+
+section h2 {
+  font-size: 40px;
+  margin-bottom: 48px;
+}
+
+#projects {
+  background-color: #38aecc;
+  padding: 64px;
+  text-align: center;
+}
+
+
+h2 {
+  color: white;
+}
+
+.project-link {
+  max-width: 300px;
+  background-color: #183446;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 12px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-title {
+  margin: 16px 0;
+}
+
+.button {
+  background-color: #183446;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button:hover,
+.project-link:hover {
+  background-color: #ca1916;
+}
+
+#show_all {
+  margin-top: 48px;
+}
+
+#project, #contact {
+  padding: 64px;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 0;
+}
+
+.contact-list {
+  margin-top: 40px;
+}
+
+.contact-list li {
+  display: inline-block;
+  font-size: 24px;
+  padding: 12px;
+}
+
+.contact-list li a {
+text-decoration: none;
+}
+
+footer {
+  border-top: 4px solid #ca1916;
+  padding: 32px;
+  text-align: center;
+}
+
+footer div {
+  display: inline-block;
+  padding: 24px;
 }
